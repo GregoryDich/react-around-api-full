@@ -1,0 +1,6 @@
+.user__avatar-overlay-icon {
+  z-index: 5;
+  margin: auto;
+  width: 26px;
+  height: 26px;
+}

@@ -1,0 +1,11 @@
+.header__button {
+  background-color: transparent;
+  color: #a9a9a9;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+  cursor: pointer;
+}
+.header__button:hover {
+    color: #fff;
+}

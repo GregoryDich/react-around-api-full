@@ -1,0 +1,4 @@
+.user__information {
+    display: flex;
+    flex-direction: column;
+  }

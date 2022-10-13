@@ -1,0 +1,19 @@
+.user__add-button {
+  margin: 0 0 0 auto;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.user__add-button:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 880px) {
+  .user__add-button {
+    margin-top: 36px;
+    width: 100%;
+  }
+}

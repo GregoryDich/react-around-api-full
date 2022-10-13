@@ -1,0 +1,9 @@
+.auth-form__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+}
+.auth-form__link:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,17 @@
+.user {
+  color: #fff;
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 40px 0 50px 0;
+}
+@media screen and (max-width: 880px) {
+  .user {
+    flex-direction: column;
+    margin: 0 19px;
+    height: fit-content;
+    text-align: center;
+    padding: 0 0 36px 0;
+  }
+}

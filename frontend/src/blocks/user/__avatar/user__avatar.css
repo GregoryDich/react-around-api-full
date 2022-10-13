@@ -1,0 +1,16 @@
+.user__avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin-right: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.user__avatar:hover .user__avatar-overlay {
+  opacity: 1;
+}
+@media screen and (max-width: 880px) {
+  .user__avatar {
+    margin: 40px auto 28px auto;
+  }
+}

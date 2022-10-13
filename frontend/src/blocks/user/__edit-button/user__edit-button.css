@@ -1,0 +1,22 @@
+.user__edit-button {
+  margin: 5px 20px 0 18px;
+  height: 24px;
+  width: 24px;
+  background-color: transparent;
+  border: none;
+  align-self: center;
+  background-image: url("../../../images/editButton.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+.user__edit-button:hover {
+  opacity: 0.6;
+}
+@media screen and (max-width: 880px) {
+  .user__edit-button {
+    width: 18px;
+    height: 18px;
+    margin: 0 0 5px 10px;
+    align-self: flex-end;
+  }
+}

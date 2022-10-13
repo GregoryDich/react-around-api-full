@@ -1,0 +1,16 @@
+.footer {
+    color: #545454;
+    max-width: 880px;
+    margin: 68px auto 60px auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  @media screen and (max-width: 880px) {
+    .footer {
+      margin: 40px auto 36px auto;
+      padding-left: 19px;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
